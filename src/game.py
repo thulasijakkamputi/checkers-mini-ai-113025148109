@@ -14,6 +14,7 @@ def main() -> None:
     parser.add_argument("--turns", type=int, default=20, help="maximum full turns")
     parser.add_argument("--human-red", action="store_true", help="select red moves by notation")
     args = parser.parse_args()
+    random.seed(113025148109)
     board, side = Board.initial(), BLACK
     agent = AlphaBetaAgent(BLACK, args.depth)
     print(board.render())
