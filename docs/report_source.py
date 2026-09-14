@@ -31,7 +31,7 @@ def build() -> None:
                             topMargin=1.6*cm, bottomMargin=1.6*cm)
     story = [
         p("Checkers Mini AI Adversarial Search", title),
-        p("Project report | Student: replace with your name | Register number: replace before submission", subtitle),
+        p("Project report | Student: thulasi j | Register number: 113025148109", subtitle),
         p("1. Problem formulation", h),
         p("The task is to choose a legal move for one side of an 8 by 8 English draughts board. "
           "A state is a board configuration plus the player whose turn it is. An action is a legal diagonal move "
