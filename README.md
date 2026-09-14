@@ -43,9 +43,19 @@ are enforced at every adversarial-search node. Terminal values reward wins and
 losses; non-terminal positions use material, king count, mobility, and centre
 control. See `docs/report.pdf` for the design and complexity discussion.
 
-## Personalisation
 
-Before submission, replace the student-name/register-number placeholders in
-the report source and the README with your own details if your instructor
-requires them. The code is intentionally original and uses no third-party
-packages.
+## Personalisation & Identity
+- **Student Name**: Thulasi Jakkamputi
+- **Register Number**: `113025148109`
+- **Randomness Seed**: `113025148109` in `src/game.py`
+
+## Sample I/O
+```text
+$ python -m src.game --depth 5 --turns 2
+
+Black AI: 21-30 (74 nodes)
+Red sample player: 52-43
+
+## Sources & Citations
+- Algorithm: Minimax with Alpha-Beta Pruning (Russell & Norvig, AIMA).
+- Rules: English Draughts (American Checkers) mandatory captures.
